@@ -3,7 +3,6 @@ svg {
 	border: dashed grey 1px;
 }
 .containers {
-	width: 550px;
 	display: inline-block;
 	border: dashed grey 1px;
 	margin: 10px;

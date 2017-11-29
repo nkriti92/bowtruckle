@@ -1,4 +1,7 @@
 var svgs;
+var windowWidth = window.innerWidth;
+var windowHeight = window.innerHeight;
+var maxheight = windowHeight - 200;
 d3.json("JSON/Nov27.json", function(data) {
     //console.log(data.uniqueID);
     //read data from json and convert to array
@@ -31,17 +34,22 @@ function DrawScreens(resolutions)
 	svgs.append("svg")
 		.attr("id", function(d) {return "R"+d;})
 		.attr("width", function(d) {
-			// var array = d.split("x");
+			var array = d.split("x");
 			// return array[0];
-			return ""+500;
+			// return ""+500;
+			var myScale = d3.scaleLinear()
+			  .domain([0, parseInt(array[1])])
+			  .range([0, maxheight]);
+			return ""+ myScale(parseInt(array[0]));
 		})
 		.attr("height", function(d) {
-			var array = d.split("x");
+			//var array = d.split("x");
 			// return array[1];
-			var myScale = d3.scaleLinear()
-			  .domain([0, parseInt(array[0])])
-			  .range([0, 500]);
-			return ""+myScale(parseInt(array[1]));
+			// var myScale = d3.scaleLinear()
+			//   .domain([0, parseInt(array[0])])
+			//   .range([0, 500]);
+			// return ""+ myScale(parseInt(array[1]));
+			return ""+maxheight;
 		});
 }
 // var svgContainer = d3.select("body").append("svg")
@@ -64,8 +72,8 @@ function DrawSwipes(data, resolutions) {
 function DrawSwipe(data, resolution) {
 	var a = resolution.split("x");
 	var myScale = d3.scaleLinear()
-			  .domain([0, parseInt(a[0])])
-			  .range([0, 500]);
+			  .domain([0, parseInt(a[1])])
+			  .range([0, maxheight]);
 	var lines = d3.select("body").select("#R"+resolution).selectAll("polyline")
 		.data(data)
 		.enter()
@@ -91,6 +99,6 @@ function DrawSwipe(data, resolution) {
 				return "yellow";
 			}
 		})
-		.style("stroke-width", "0.5")
+		.style("stroke-width", "1")
 		.style("fill", "none");
 }

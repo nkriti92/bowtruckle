@@ -21,6 +21,7 @@ d3.json("JSON/Nov27.json", function(data) {
 
 function DrawScreens(resolutions)
 {
+
 	svgs = d3.select("body").selectAll("svg")
 		.data(resolutions)
 		.enter()
@@ -30,12 +31,17 @@ function DrawScreens(resolutions)
 	svgs.append("svg")
 		.attr("id", function(d) {return "R"+d;})
 		.attr("width", function(d) {
-			var array = d.split("x");
-			return array[0];
+			// var array = d.split("x");
+			// return array[0];
+			return ""+500;
 		})
 		.attr("height", function(d) {
 			var array = d.split("x");
-			return array[1];
+			// return array[1];
+			var myScale = d3.scaleLinear()
+			  .domain([0, parseInt(array[0])])
+			  .range([0, 500]);
+			return ""+myScale(parseInt(array[1]));
 		});
 }
 // var svgContainer = d3.select("body").append("svg")
@@ -56,6 +62,10 @@ function DrawSwipes(data, resolutions) {
 	}
 }
 function DrawSwipe(data, resolution) {
+	var a = resolution.split("x");
+	var myScale = d3.scaleLinear()
+			  .domain([0, parseInt(a[0])])
+			  .range([0, 500]);
 	var lines = d3.select("body").select("#R"+resolution).selectAll("polyline")
 		.data(data)
 		.enter()
@@ -63,7 +73,7 @@ function DrawSwipe(data, resolution) {
 		.attr("points", function (d) {
 			var pointString = "";
 			for (var i = 0; i<d.coordinates.length; i++) {
-				pointString+=d.coordinates[i].x+','+d.coordinates[i].y+" ";
+				pointString+=myScale(d.coordinates[i].x)+','+myScale(d.coordinates[i].y)+" ";
 			}
 			return pointString;
 		})

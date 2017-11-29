@@ -1,0 +1,271 @@
+{
+  "_0" : {
+    "coordinates" : [ {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01764705963432789,
+      "touchMajor" : 5,
+      "touchMinor" : 4,
+      "x" : 822.4614868164062,
+      "y" : 1442.923583984375
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.019607843831181526,
+      "touchMajor" : 6,
+      "touchMinor" : 4,
+      "x" : 838.06201171875,
+      "y" : 1327.3314208984375
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 5,
+      "touchMinor" : 3,
+      "x" : 869.285888671875,
+      "y" : 1154.9991455078125
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.019607843831181526,
+      "touchMajor" : 6,
+      "touchMinor" : 4,
+      "x" : 904.4019165039062,
+      "y" : 1013.0249633789062
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 5,
+      "touchMinor" : 3,
+      "x" : 939.802490234375,
+      "y" : 899.7702026367188
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 4,
+      "touchMinor" : 4,
+      "x" : 943,
+      "y" : 890
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 4,
+      "touchMinor" : 4,
+      "x" : 943,
+      "y" : 890
+    } ],
+    "hand" : "rightThumb",
+    "height" : 1920,
+    "start" : {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 5,
+      "touchMinor" : 3,
+      "x" : 814,
+      "y" : 1536
+    },
+    "startTime" : 1511118971,
+    "width" : 1080,
+    "xdpi" : 403.4110107421875
+  },
+  "_1" : {
+    "coordinates" : [ {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 5,
+      "touchMinor" : 3,
+      "x" : 751.056396484375,
+      "y" : 1324.700439453125
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.019607843831181526,
+      "touchMajor" : 6,
+      "touchMinor" : 4,
+      "x" : 766.8585205078125,
+      "y" : 1173.7532958984375
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01764705963432789,
+      "touchMajor" : 5,
+      "touchMinor" : 4,
+      "x" : 793,
+      "y" : 1047
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01764705963432789,
+      "touchMajor" : 5,
+      "touchMinor" : 4,
+      "x" : 793,
+      "y" : 1047
+    } ],
+    "hand" : "rightThumb",
+    "height" : 1920,
+    "start" : {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01764705963432789,
+      "touchMajor" : 5,
+      "touchMinor" : 4,
+      "x" : 750,
+      "y" : 1424
+    },
+    "startTime" : 1511118984,
+    "width" : 1080,
+    "xdpi" : 403.4110107421875
+  },
+  "_2" : {
+    "coordinates" : [ {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 5,
+      "touchMinor" : 3,
+      "x" : 663,
+      "y" : 1676.8099365234375
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 5,
+      "touchMinor" : 3,
+      "x" : 669.610595703125,
+      "y" : 1539.1458740234375
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.019607843831181526,
+      "touchMajor" : 6,
+      "touchMinor" : 4,
+      "x" : 693.6359252929688,
+      "y" : 1342.9881591796875
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01764705963432789,
+      "touchMajor" : 5,
+      "touchMinor" : 4,
+      "x" : 740.9561157226562,
+      "y" : 1136.324462890625
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.013725491240620613,
+      "touchMajor" : 4,
+      "touchMinor" : 3,
+      "x" : 761,
+      "y" : 1080
+    }, {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.013725491240620613,
+      "touchMajor" : 4,
+      "touchMinor" : 3,
+      "x" : 761,
+      "y" : 1080
+    } ],
+    "hand" : "rightThumb",
+    "height" : 1920,
+    "start" : {
+      "orientation" : 0,
+      "pressure" : 1,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 4,
+      "touchMinor" : 4,
+      "x" : 663,
+      "y" : 1694
+    },
+    "startTime" : 1511119009,
+    "width" : 1080,
+    "xdpi" : 403.4110107421875
+  },
+  "_3" : {
+    "coordinates" : [ {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 127.49299621582031,
+      "touchMinor" : 127.49299621582031,
+      "x" : 400.683837890625,
+      "y" : 1839.8372802734375
+    }, {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 127.49299621582031,
+      "touchMinor" : 127.49299621582031,
+      "x" : 412.719482421875,
+      "y" : 1728.287109375
+    }, {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.007843137718737125,
+      "touchMajor" : 77.10598754882812,
+      "touchMinor" : 77.10598754882812,
+      "x" : 416.3444519042969,
+      "y" : 1616.35498046875
+    }, {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 127.49299621582031,
+      "touchMinor" : 127.49299621582031,
+      "x" : 400.8443908691406,
+      "y" : 1495.641357421875
+    }, {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.01568627543747425,
+      "touchMajor" : 127.49299621582031,
+      "touchMinor" : 127.49299621582031,
+      "x" : 365.193603515625,
+      "y" : 1369.580810546875
+    }, {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.007843137718737125,
+      "touchMajor" : 77.10598754882812,
+      "touchMinor" : 77.10598754882812,
+      "x" : 313.2173767089844,
+      "y" : 1244.927490234375
+    }, {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.003921568859368563,
+      "touchMajor" : 41.47699737548828,
+      "touchMinor" : 41.47699737548828,
+      "x" : 298,
+      "y" : 1215
+    }, {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.003921568859368563,
+      "touchMajor" : 41.47699737548828,
+      "touchMinor" : 41.47699737548828,
+      "x" : 298,
+      "y" : 1215
+    } ],
+    "hand" : "leftThumb",
+    "height" : 2392,
+    "start" : {
+      "orientation" : 0,
+      "pressure" : 0.36250001192092896,
+      "size" : 0.007843137718737125,
+      "touchMajor" : 77.10598754882812,
+      "touchMinor" : 77.10598754882812,
+      "x" : 373,
+      "y" : 1940
+    },
+    "startTime" : 1511121586,
+    "width" : 1440,
+    "xdpi" : 494.2699890136719
+  },
+  "uniqueID" : 4
+}

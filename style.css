@@ -1,0 +1,9 @@
+svg {
+	margin: 20px;
+	border: dashed grey 1px;
+}
+.containers {
+	/*width: 550px;*/
+	border: dashed grey 1px;
+	margin: 10px;
+}

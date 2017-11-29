@@ -22,7 +22,7 @@ d3.json("JSON/Nov27.json", function(data) {
 function DrawScreens(resolutions)
 {
 
-	svgs = d3.select("body").selectAll("svg")
+	svgs = d3.select("body").select("#screens").selectAll("svg")
 		.data(resolutions)
 		.enter()
 		.append("div")
@@ -33,14 +33,14 @@ function DrawScreens(resolutions)
 		.attr("width", function(d) {
 			// var array = d.split("x");
 			// return array[0];
-			return ""+500;
+			return ""+350;
 		})
 		.attr("height", function(d) {
 			var array = d.split("x");
 			// return array[1];
 			var myScale = d3.scaleLinear()
 			  .domain([0, parseInt(array[0])])
-			  .range([0, 500]);
+			  .range([0, 350]);
 			return ""+myScale(parseInt(array[1]));
 		});
 }
@@ -65,8 +65,8 @@ function DrawSwipe(data, resolution) {
 	var a = resolution.split("x");
 	var myScale = d3.scaleLinear()
 			  .domain([0, parseInt(a[0])])
-			  .range([0, 500]);
-	var lines = d3.select("body").select("#R"+resolution).selectAll("polyline")
+			  .range([0, 350]);
+	var lines = d3.select("#R"+resolution).selectAll("polyline")
 		.data(data)
 		.enter()
 		.append("polyline")
@@ -91,6 +91,6 @@ function DrawSwipe(data, resolution) {
 				return "yellow";
 			}
 		})
-		.style("stroke-width", "0.5")
+		.style("stroke-width", "0.3")
 		.style("fill", "none");
 }
